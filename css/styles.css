@@ -1,0 +1,367 @@
+:root {
+  --black: #212121;
+  --grey: #757575;
+  --dark-grey: #2f303a;
+  --light-grey: #f5f4fa;
+  --blue: #2196f3;
+  --white: #ffffff;
+}
+
+/* --BODY-- */
+
+body {
+  background-color: var(--white);
+  color: var(--black);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+.section {
+  padding: 94px 0;
+  margin: -100;
+}
+
+.container {
+  width: 1176px;
+  margin: 0 auto;
+  /*   padding: 0 15px;
+ */
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* --HEADER-- */
+
+.page-header {
+  border-bottom: 1px solid #ececec;
+  background-color: #fff;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+/* LOGO STYLE */
+
+.logo-text {
+  font-family: "Relaway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-align: left;
+  margin-right: 93px;
+}
+
+.logo-text-web {
+  color: var(--blue);
+}
+
+/* MAIN NAVIGATION */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.main-nav-list {
+  display: flex;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.02em;
+}
+
+.main-nav-list li:not(:last-child) {
+  margin-right: 32px;
+}
+
+/* CONTACT LINKS IN MAIN NAVIGATION */
+
+.contact-link-list {
+  color: var(--grey);
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  display: flex;
+  margin-left: auto;
+}
+
+.contact-link-list li:not(:last-child) {
+  margin-right: 50px;
+}
+
+/* -LINKS STYLE- */
+
+a,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: var(--blue);
+}
+
+/* -BUTTONS STYLE- */
+
+.buttons {
+  margin-bottom: 34px;
+  text-align: center;
+}
+
+.button {
+  font-family: "Roboto";
+  background-color: var(--light-grey);
+  max-width: 121px;
+  height: 38px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.39;
+  letter-spacing: 0.03em;
+  text-align: center;
+  border: 0;
+  border-radius: 4px;
+}
+
+.button-hero {
+  min-width: 200px;
+  height: 50px;
+  line-height: 1.6;
+  letter-spacing: 0.06em;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.button-portfolio {
+  margin-right: 8px;
+  padding: 6px 22px;
+}
+
+.button-portfolio:last-child {
+  margin-right: 0;
+}
+.button:hover,
+.button:focus {
+  color: var(--white);
+  background-color: var(--blue);
+  cursor: pointer;
+  box-shadow: 0 3px 1px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.08), 0 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+/* --HERO SECTION-- */
+
+.hero-section {
+  background-color: var(--dark-grey);
+  text-align: center;
+  padding: 200px 0;
+  margin: 0;
+}
+
+h1 {
+  color: var(--white);
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.16;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+/* --MAIN-- */
+
+/* -HEADERS STYLE- */
+
+h2 /* .section-heading */ {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin: 0;
+}
+
+h3 /* .portfolio-card-title */ {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.71;
+  letter-spacing: 0.06em;
+  margin: 0;
+  margin-bottom: 4px;
+}
+
+h4 /* .team-card-title */ {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin: 0;
+}
+
+h5 /* .text-card-title */ {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-transform: uppercase;
+  color: var(--black);
+  margin: 0;
+}
+
+/* TEXT CARDS */
+
+.text-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 94px;
+}
+
+.text-card-item {
+  margin-right: 30px;
+}
+
+.text-card-item:last-child {
+  margin-right: 0;
+}
+
+.text-card-text {
+  color: var(--grey);
+  line-height: 1.46;
+  letter-spacing: 0.03em;
+  margin: 10px 0 0 0;
+}
+
+/* IMG CARDS */
+
+.img-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.img-card-item {
+  margin: 0;
+  margin-right: 30px;
+}
+
+.img-card-item:last-child {
+  margin-right: 0;
+}
+
+/* TEAM CARDS */
+
+.our-team {
+  background-color: var(--light-grey);
+}
+
+.team-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.team-card-item {
+  background-color: var(--white);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14), 0 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 4px 4px;
+  margin: 0;
+  margin-right: 30px;
+}
+
+.team-card-item:last-child {
+  margin-right: 0;
+}
+
+.team-card-caption {
+  padding: 30px;
+}
+
+.team-card-text {
+  color: var(--grey);
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin: 0;
+  margin-top: 10px;
+}
+
+/* --PORTFOLIO-- */
+
+.portfolio-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.portfolio-card-item {
+  margin: 0;
+  margin-left: 0;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  border: 1px solid #eeeeee;
+}
+
+.portfolio-card-item:nth-child(3n + 3) {
+  margin-right: 0;
+}
+
+.portfolio-card-item:nth-child(n + 7) {
+  margin-bottom: 0;
+}
+
+.portfolio-card-caption {
+  padding: 20px 24px;
+  margin: 0;
+}
+
+.portfolio-card-text {
+  color: var(--grey);
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  margin: 0;
+}
+
+/* -- FOOTER -- */
+
+.page-footer {
+  background-color: var(--dark-grey);
+  height: 252px;
+  display: flex;
+  align-items: center;
+}
+
+/* FOOTER LOGO STYLE */
+
+.logo-text-studio {
+  color: var(--white);
+}
+
+/* ADDRESS LINKS IN FOOTER */
+
+.address-link-list {
+  color: var(--white);
+  font-weight: 400;
+  line-height: 1.46;
+  letter-spacing: 0.03em;
+  margin-top: 20px;
+}
+
+.address-link-list .contact {
+  opacity: 0.6;
+}
+
+.address-link-item {
+  margin-bottom: 9px;
+}
+
+.address-link-item:last-child {
+  margin-bottom: 0;
+}
