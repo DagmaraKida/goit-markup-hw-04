@@ -12,7 +12,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/modern-normalize.min.css" />
-    <link rel="stylesheet" href="./css/styles.css"  />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
@@ -26,16 +26,24 @@
           <nav class="main-nav">
             <ul class="main-nav-list">
               <li class="main-nav-item"><a href="./index.html">Agencja</a></li>
-              <li  class="main-nav-item"><a href="./portfolio.html">Portfolio</a></li>
-              <li  class="main-nav-item"><a href="#">Kontakt</a></li>
+              <li class="main-nav-item"><a href="./portfolio.html">Portfolio</a></li>
+              <li class="main-nav-item"><a href="#">Kontakt</a></li>
             </ul>
           </nav>
           <!-- CONTACT -->
           <ul class="contact-link-list">
             <li>
+              <svg class="contact-icon" width="16" height="12">
+                <use href="./images/icons.svg#icon-envelope"></use>
+              </svg>
               <a class="contact-link-item" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
-            <li><a class="contact-link-item" href="tel:+48111111111">+48 111 111 111</a></li>
+            <li>
+              <svg class="contact-icon" width="10" height="16">
+                <use href="./images/icons.svg#icon-smartphone"></use>
+              </svg>
+              <a class="contact-link-item" href="tel:+48111111111">+48 111 111 111</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -178,19 +186,55 @@
     <!-- FOOTER -->
     <footer class="page-footer">
       <div class="container">
-        <!-- LOGO -->
-        <a class="logo-text" href="index.html"
-          ><span class="logo-text-web">Web</span><span class="logo-text-studio">Studio</span></a
-        >
-        <!-- ADDRESS -->
-        <address class="address">
-          <ul class="address-link-list">
-            <li class="address-link-item">
-              <a href="https://goo.gl/maps/1uCLYBcG9Ry3D8Pi7" target="_blank">m. Warszawa, Aleje Jerozolimskie 21</a>
+        <div class="footer-address">
+          <!-- LOGO -->
+          <a class="logo-text" href="index.html"
+            ><span class="logo-text-web">Web</span><span class="logo-text-studio">Studio</span></a
+          >
+          <!-- ADDRESS -->
+          <address class="address">
+            <ul class="address-link-list">
+              <li class="address-link-item">
+                <a href="https://goo.gl/maps/1uCLYBcG9Ry3D8Pi7" target="_blank">m. Warszawa, Aleje Jerozolimskie 21</a>
+              </li>
+              <li class="address-link-item contact"><a href="mailto:info@example.com">info@example.com</a></li>
+              <li class="address-link-item contact"><a href="tel:+48111111111">+48 111 111 111</a></li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-social-links">
+          <p class="footer-social-links-text">Dołącz do nas</p>
+          <ul class="social-links">
+            <li class="social-link-item">
+              <a class="social-icon-box" href="#">
+                <svg class="social-icon" width="20" height="70">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li class="address-link-item contact"><a href="mailto:info@example.com">info@example.com</a></li>
-            <li class="address-link-item contact"><a href="tel:+48111111111">+48 111 111 111</a></li>
+            <li class="social-link-item">
+              <a class="social-icon-box" href="#">
+                <svg class="social-icon" width="20" height="70">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-link-item">
+              <a class="social-icon-box" href="#">
+                <svg class="social-icon" width="20" height="70">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-link-item">
+              <a class="social-icon-box" href="#">
+                <svg class="social-icon" width="20" height="70">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
           </ul>
+        </div>
       </div>
     </footer>
   </body>
