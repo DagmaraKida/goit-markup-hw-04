@@ -337,31 +337,6 @@ h5 /* .text-card-title */ {
   fill: #afb1b8;
 }
 
-/* .footer-social-links .social-icon-box {
-  background-color: #fff;
-  opacity: 10%;
-}
-
-.footer-social-links .social-icon {
-  fill: #fff;
-} */
-
-/* .footer-social-links .social-icon-box {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-
-.footer-social-links .social-icon {
-  fill: #fff;
-}
-
-.social-icon-box:hover .social-icon {
-  fill: #fff;
-}
-
-.social-icon-box:hover {
-  background-color: var(--brand-color);
-}
- */
 /* --PORTFOLIO-- */
 
 .portfolio-cards {
