@@ -88,12 +88,21 @@ ul {
   letter-spacing: 0.02em;
   display: flex;
   margin-left: auto;
+  align-items: baseline;
 }
 
 .contact-link-list li:not(:last-child) {
   margin-right: 50px;
 }
 
+.contact-icon {
+  margin-right: 10px;
+  fill: var(--light-grey);
+}
+
+.contact-link-item:hover {
+  fill: var(--blue);
+}
 /* -LINKS STYLE- */
 
 a,
@@ -237,6 +246,13 @@ h5 /* .text-card-title */ {
   margin: 10px 0 0 0;
 }
 
+.box-icon {
+  background-color: var(--light-grey);
+  border-radius: 4px;
+  padding: 25px 100px;
+  margin-bottom: 30px;
+}
+
 /* IMG CARDS */
 
 .img-cards {
@@ -292,6 +308,60 @@ h5 /* .text-card-title */ {
   margin-top: 10px;
 }
 
+/* SOCIAL ICONS */
+
+.social-links {
+  display: flex;
+  justify-content: center;
+}
+
+.social-link-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-icon-box {
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  background-color: var(--blue);
+}
+
+.social-icon {
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  margin-top: 16px;
+}
+
+.team-cards .social-icon {
+  fill: #afb1b8;
+}
+
+/* .footer-social-links .social-icon-box {
+  background-color: #fff;
+  opacity: 10%;
+}
+
+.footer-social-links .social-icon {
+  fill: #fff;
+} */
+
+/* .footer-social-links .social-icon-box {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-social-links .social-icon {
+  fill: #fff;
+}
+
+.social-icon-box:hover .social-icon {
+  fill: #fff;
+}
+
+.social-icon-box:hover {
+  background-color: var(--brand-color);
+}
+ */
 /* --PORTFOLIO-- */
 
 .portfolio-cards {
