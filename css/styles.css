@@ -319,10 +319,20 @@ h5 /* .text-card-title */ {
   margin-right: 10px;
 }
 
-.social-icon-box {
+.social-link-item {
+  margin-top: 16px;
   border-radius: 50%;
   width: 44px;
   height: 44px;
+}
+
+.footer-social-links .social-link-item {
+  background-color: rgba(255, 255, 255, 0.1);
+  --color4: var(--white);
+}
+
+.social-link-item:hover {
+  --color4: var(--white);
   background-color: var(--blue);
 }
 
@@ -330,11 +340,6 @@ h5 /* .text-card-title */ {
   width: 44px;
   height: 44px;
   padding: 12px;
-  margin-top: 16px;
-}
-
-.team-cards .social-icon {
-  fill: #afb1b8;
 }
 
 /* --PORTFOLIO-- */
