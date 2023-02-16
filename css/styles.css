@@ -156,12 +156,11 @@ a:focus {
 }
 
 .button-portfolio {
-  margin-right: 8px;
   padding: 6px 22px;
 }
 
-.button-portfolio:last-child {
-  margin-right: 0;
+.button-portfolio:not(:last-child) {
+  margin-right: 8px;
 }
 .button:hover,
 .button:focus {
@@ -245,12 +244,8 @@ h5 /* .text-card-title */ {
   margin-bottom: 94px;
 }
 
-.text-card-item {
+.text-card-item:not(:last-child) {
   margin-right: 30px;
-}
-
-.text-card-item:last-child {
-  margin-right: 0;
 }
 
 .text-card-text {
@@ -277,11 +272,10 @@ h5 /* .text-card-title */ {
 
 .img-card-item {
   margin: 0;
-  margin-right: 30px;
 }
 
-.img-card-item:last-child {
-  margin-right: 0;
+.img-card-item:not(:last-child) {
+  margin-right: 30;
 }
 
 /* TEAM CARDS */
@@ -458,12 +452,8 @@ h5 /* .text-card-title */ {
   opacity: 0.6;
 }
 
-.address-link-item {
+.address-link-item:not(:last-child) {
   margin-bottom: 9px;
-}
-
-.address-link-item:last-child {
-  margin-bottom: 0;
 }
 
 .footer-address {
