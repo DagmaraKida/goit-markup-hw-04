@@ -311,28 +311,29 @@ h5 /* .text-card-title */ {
   margin-top: 50px;
 }
 
-.clients-card-item {
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
+.icon {
+  fill: #afb1b8;
+}
+
+.clients-card-link {
   width: 170px;
   height: 92px;
+  padding: 16px 32px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
   display: flex;
+  align-items: center;
   justify-content: center;
 }
 
-.clients-card-item:hover,
-.clients-card-item:focus {
+.clients-card-link:hover,
+.clients-card-link:focus {
   border-color: var(--blue);
 }
 
-.clients-card-item:hover .icon,
-.clients-card-item:focus .icon {
+.clients-card-link:hover .icon,
+.clients-card-link:focus .icon {
   fill: var(--blue);
-}
-.clients-card-link {
-  display: flex;
-  align-items: center;
-  padding: 16px 32px;
 }
 
 /* SOCIAL ICONS */
