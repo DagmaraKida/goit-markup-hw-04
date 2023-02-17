@@ -97,6 +97,7 @@ ul {
 
 .contact-icon {
   margin-right: 10px;
+  fill: #757575;
 }
 
 /* -LINKS STYLE- */
@@ -110,7 +111,11 @@ a:visited {
 a:hover,
 a:focus {
   color: var(--blue);
-  --color3: var(--blue);
+}
+
+.contact-link-item:hover .contact-icon,
+.contact-link-item:focus .contact-icon {
+  fill: var(--blue);
 }
 
 /* -BUTTONS STYLE- */
@@ -311,9 +316,6 @@ h5 /* .text-card-title */ {
   border-radius: 4px;
   width: 170px;
   height: 92px;
-
-  /*   cursor: pointer;
- */
   display: flex;
   justify-content: center;
 }
@@ -323,9 +325,9 @@ h5 /* .text-card-title */ {
   border-color: var(--blue);
 }
 
-.clients-card-item:hover,
+.clients-card-item:hover .icon,
 .clients-card-item:focus .icon {
-  --color4: var(--blue);
+  fill: var(--blue);
 }
 .clients-card-link {
   display: flex;
@@ -362,7 +364,9 @@ h5 /* .text-card-title */ {
   --color4: var(--white);
   background-color: var(--blue);
 }
-
+.icon.svg {
+  fill: black;
+}
 .social-icon {
   width: 44px;
   height: 44px;
