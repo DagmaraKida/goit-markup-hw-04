@@ -7,6 +7,10 @@
   --white: #ffffff;
 }
 
+*:focus {
+  outline: none;
+}
+
 /* --BODY-- */
 
 body {
@@ -18,14 +22,11 @@ body {
 
 .section {
   padding: 94px 0;
-  margin: -100;
 }
 
 .container {
-  width: 1176px;
+  width: 1200px;
   margin: 0 auto;
-  /*   padding: 0 15px;
- */
 }
 
 ul {
@@ -168,14 +169,17 @@ a:focus {
 /* --HERO SECTION-- */
 
 .hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 600px;
   background-color: var(--dark-grey);
   box-shadow: 0px 4px 4px 0 rgba(0, 0, 0, 0.25);
   background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg) no-repeat;
   background-size: cover, 1600px;
   background-position: 50% 50%;
-  text-align: center;
-  padding: 200px 0;
-  height: 600px;
 }
 
 h1 {
@@ -185,8 +189,7 @@ h1 {
   line-height: 1.16;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  margin: 0 auto;
-  margin-bottom: 30px;
+  margin: 0 0 30px 0;
 }
 
 /* --MAIN-- */
@@ -257,19 +260,19 @@ h5 /* .text-card-title */ {
   margin-bottom: 30px;
 }
 
-/* IMG CARDS */
+/* WORK CARDS */
 
-.img-cards {
+.work-cards {
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
 }
 
-.img-card-item {
+.work-card-item {
   margin: 0;
 }
 
-.img-card-item:not(last-child) {
+.work-card-item:not(last-child) {
   margin-right: 30;
 }
 
@@ -368,7 +371,7 @@ h5 /* .text-card-title */ {
 
 .social-link:hover,
 .social-link:focus {
-  background-color: #2196f3;
+  background-color: var(--blue);
   fill: #fff;
 }
 
@@ -418,6 +421,7 @@ h5 /* .text-card-title */ {
 
 .footer-section {
   background-color: var(--dark-grey);
+  background-size: cover;
   height: 252px;
   display: flex;
   align-items: center;
